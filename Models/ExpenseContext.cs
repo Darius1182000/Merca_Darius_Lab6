@@ -9,6 +9,8 @@ namespace Merca_Darius_Lab6.Models
         {
         }
         public DbSet<Expense> Expense { get; set; }
+        public DbSet<ExpenseDTO> ExpenseDTO { get; set; }
+
 
     }
 }
